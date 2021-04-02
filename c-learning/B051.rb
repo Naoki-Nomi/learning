@@ -9,7 +9,6 @@ number.times do
   magic << magic_number
 end
 
-i = 0
 answer = 0
 
 magic.each do |mg|
@@ -39,7 +38,7 @@ magic = magic.transpose
 
 magic.each do |mg|
   puts mg.join(' ')
-end   
+end
 
 # 入力例1 （全ての縦と列の合計は同じ数になる）
 # 3 (行の数)
